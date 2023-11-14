@@ -1,0 +1,516 @@
+body{
+    background-color: white;
+    scroll-padding-top: 1.25rem;
+    scroll-behavior: smooth;
+}
+.navbar {
+    background-color: darkred;
+    min-height: 60px; /* Adjust the height to your preference */
+    color: black;
+    
+}
+.navbar-nav > li > a {
+    font-size: 17px; /* Adjust the font size to your preference */
+    align-items: center;
+    color: beige;
+}
+
+.navbar-nav > li > a > i {
+    /*font-size: 18px;  Adjust the font size to your preference */
+    text-align: center;
+}
+
+.navbar-brand {
+    text-align: center;
+}
+
+#container-id{
+    width: 96%;
+}
+.header-text{
+    
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 40px;
+}
+.header-text h1 span{
+    color: darkred;
+}
+.btn{
+    font-size: 25px; /* Adjust the font size to increase button size */
+    padding: 10px 20px; /* Adjust padding to increase button size */
+    text-align: center;
+    background-color: darkred;
+    text-decoration: none;
+
+}
+.btn-resume a{
+    color: white;
+}
+.btn-container{
+    font-size: 40px; /* Adjust the font size to increase button size */
+    padding: 10px 20px; /* Adjust padding to increase button size */
+    text-align: center;
+    /* display: inline-block; */
+}
+.fa-brands{
+    text-decoration: none;
+    font-size: 35px;
+    margin-right: 25px;
+    color: rgb(15, 15, 15);
+    margin: 1%;
+    padding: 10px 0;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.fa-brands:hover{
+    color:  darkred;
+    transform: translateY(-10px)  /*move the icon up for 5px */
+}
+
+.img-responsive{
+   /* width: 750px;  Set the desired width */
+    /*height: 200px;  Set the desired height */
+    height: auto;
+    text-align: center;
+}
+
+/* -----------------------------------------About----------------------------------------------- */
+
+
+
+#about{
+    padding: 40px 0 ;
+    color: #2e2d2d;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+     flex-basis: 35%;
+     width: 96%;  /* the width of the column is 35% */
+}
+.about-col-1 img{
+    width: 90%;
+    margin-left: 10%;
+    border-radius: 15px;
+    border: 1px solid black;
+    /* box-shadow: 0 10px 85px 0 rgba(0, 0, 0, 0.2)
+                0 16ox 40px 0 rgba(95, 70, 70, 0.2) */
+}
+.about-col-2{
+    flex-basis: 55%;  
+}
+.sub-title{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(10, 10, 10);
+}
+
+.skill-title{
+    padding: 5%;
+    font-size: 25px;
+    font-weight: bold;
+    color: darkred;
+}
+.skill-description{
+    font-size: 25px;
+    margin-top: 1%;
+    width: auto;
+    /* padding: 5%; */
+}
+.skill-title1{
+    padding: 5%;
+    font-size: 25px;
+    font-weight: bold;
+    color: darkred;
+}
+.skill-description1{
+    font-size: 25px;
+    margin-top: 1%;
+    /* padding: 5%; */
+}
+
+/* <!-- ----------------------------------------Skills----------------------------------------- --> */
+
+/* .title{
+    width: auto;
+    margin-left: 5%;
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(10, 10, 10);
+}
+
+.skills-1 span{
+    color: darkred;
+    size: bold;
+    font-size: 25px;
+}
+.skills-2 span{
+    color: darkred;
+    size: bold;
+    font-size: 25px;
+}
+.skills-3 span{
+    color: darkred;
+    size: bold;
+    font-size: 25px;
+}
+.skills-4 span{
+    color: darkred;
+    size: bold;
+    font-size: 25px;
+}
+.skills-5 span{
+    color: darkred;
+    size: bold;
+    font-size: 25px;
+}
+.skills-6 span{
+    color: darkred;
+    size: bold;
+    font-size: 25px;
+}
+.skills-7 span{
+    color: darkred;
+    size: bold;
+    font-size: 25px;
+}
+.skills-1 ,.skills-2 ,.skills-3 ,.skills-4 ,.skills-5 ,.skills-6 ,.skills-7 {
+    margin-left: 15%;
+    font-size: 25px;
+    padding: 1%;
+} */
+
+
+/* display: flex; is a CSS property that is used to create a flexible container, 
+allowing its child elements (often referred to as flex items) to align and 
+distribute space within the container, both horizontally and vertically. */
+
+.skills-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* flex-basis is a CSS property that determines the initial size of a flex item
+ before any available space is distributed. It specifies the ideal size for a flex item,
+which is used as a starting point when allocating available space within a flex container. */
+
+.skills-text {
+    flex-basis: 65%;
+}
+
+/* #about{
+    transition: 0.08s;
+    scroll-behavior: smooth;
+} */
+
+.skills-image {
+    flex-basis: 80%;
+}
+
+.skills-image img {
+    max-width: 100%;
+    /* height: 350px;
+    margin-top: 10%;
+    border: 2px solid black; */
+}
+
+/* Additional styling for skills section */
+#skills h1 {
+    width: auto;
+    margin-left: 1%;
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(10, 10, 10);
+}
+
+#skills ul {
+    list-style: none;
+    margin-left: 5%;
+    /* padding: 1%; */
+}
+
+#skills li {
+    font-size: 25px;
+    padding: 1%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+/* <!-- ----------------------------------------Contact----------------------------------------- --> */
+
+
+#contact span{
+    color: darkred;
+    font-size: 25px;
+}
+
+#contact button{
+    font-size: 20px; /* Adjust the font size to increase button size */
+    padding: 10px 20px; /* Adjust padding to increase button size */
+    margin-left: 35%;
+    text-align: center;
+    color: white;
+    background-color: darkred;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none; /* Remove button border */
+    outline: none; /* Remove outline on focus */
+    display: inline-block;
+    cursor: pointer;
+
+    /* cursor: pointer;:
+
+            The cursor property is used to define the type of cursor that is displayed when the mouse pointer is over an element.
+            pointer is a value for the cursor property, and it changes the cursor to a pointing hand, typically indicating that
+            the element is clickable, such as a link or a button.
+            This property is used to improve user experience by providing visual feedback to users, letting them know that they 
+            can interact with the element. */
+
+}
+
+#contact {
+    /* background-color: #080808; */
+    width: 100%;
+    margin-left: 4%;
+    font-size: 25px;
+    /* font-weight: 600; */
+    /* text-align: center; */
+}
+
+#contact h1{
+    width: auto;
+    margin-left: 6%;
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(10, 10, 10);
+
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+}
+
+#name {
+    padding: 10px; /* Adjust the padding as needed */
+    margin-left: 10px;
+    margin: 10px 0; /* Adjust the margin as needed */
+    font-size: 20px; /* Adjust the font size as needed */
+    width: 100%; /* Make inputs and textarea full-width */
+}
+
+#email {
+    padding: 10px; /* Adjust the padding as needed */
+    margin: 10px 0; /* Adjust the margin as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    width: 100%; /* Make inputs and textarea full-width */
+}
+
+#message {
+    padding: 10px; /* Adjust the padding as needed */
+    margin: 10px 0; /* Adjust the margin as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    width: 100%; /* Make inputs and textarea full-width */
+}
+
+.social-icons{
+    /* margin-top: 20px;  */
+    
+    text-align: center;
+    
+    
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 35px;
+    margin-right: 25px;
+    color: rgb(15, 15, 15);
+    margin: 1%;
+    padding: 10px 0;
+    display: flexbox;
+    /* display: inline-block; */
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover{
+    color: darkred;
+     transform: translateY(-10px)  /*move the icon up for 5px */
+}
+.footer-contact{
+    text-align: center;
+    padding-left: 8%;
+}
+hr{
+    margin: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for phone-sized screens (up to 600px wide) */
+@media (max-width: 550px) {
+    /* CSS styles for phones go here */
+    /* You can customize styles for smaller screens within this block */
+    .header-text{
+    
+        margin-top: 1%;
+        margin-left: 4%;
+        font-size: 17px;
+    }
+    .header-text h1{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .btn{
+        text-align: center;
+        font-size: 15px;
+    }
+    .fa-brands{
+        font-size: 30px;
+    }
+    /* .img-responsive{
+        margin-left: 4%;
+        margin-right: 4%;
+    } */
+    .col-md-6 {
+        width: 100%;
+        margin-left: 4%;
+    }
+    .about-col-1{
+        flex-basis: 75%;
+        /* the width of the column is 35% */
+        margin-right: 50px;
+   }
+   
+   /* .sub-title{
+       font-size: 25px;
+       text-align: center;
+   }
+   .skill-title{
+    text-align: center;
+    font-size: 15px;
+   }
+   .skill-description{
+    font-size: 15px;
+    border: 1px solid #2e2d2d;
+    /* flex-basis: 100%; */
+    /* justify-content: center;
+    text-align: center;
+} */ 
+
+    .about-col-2 {
+    flex-basis: 100%; /* Make it full-width on smaller screens */
+    text-align: center;
+    }
+    .sub-title {
+    font-size: 24px; /* Adjust the font size for the sub-title */
+    text-align: center;
+    }
+    .skill-title,
+    .skill-title1 {
+    font-size: 20px; /* Adjust the font size for the skill titles */
+    margin-top: 15px; /* Add some top margin for spacing */
+    }
+    .skill-description,
+    .skill-description1 {
+    font-size: 16px; /* Adjust the font size for the skill descriptions */
+    padding-left: 6%;
+    margin-left: 4%;
+    text-align: left;
+    }
+
+    #skills h1 {
+       font-size: 24px;
+       padding-left: 30%;
+    }
+
+    #skills li {
+        font-size: 16px;
+        flex: 1;
+        width: 80%;
+        padding-right: 5%;
+        
+    }
+    #skills ul {
+        list-style: none;
+        margin-left: 5%;
+        padding: 1%; 
+        text-align: left;
+    }
+    .skills-image {
+        flex-basis: 100%; /* Make it full-width on smaller screens */
+        max-width: 100%;
+    }
+
+
+    #contact span{
+        color: darkred;
+        font-size: 20px;
+    }
+    #contact button{
+        font-size: 16px;
+        text-align: center;
+    }
+    #contact h1{
+        font-size: 24px;
+        padding-left: 15%;
+    }
+    form {
+        max-width: 400px;
+        margin: auto;
+        padding: 20px;
+    }
+    #name {
+        font-size: 16px; /* Adjust the font size as needed */
+        width: 100%; /* Make inputs and textarea full-width */
+    }
+    #email {
+        font-size: 16px; /* Adjust the font size as needed */
+        width: 100%; /* Make inputs and textarea full-width */
+    }
+    #message {
+        font-size: 16px; /* Adjust the font size as needed */
+        width: 100%; /* Make inputs and textarea full-width */
+    }
+    .social-icons {
+        text-align: center;
+    }
+    .social-icons a{
+        margin: 2px; /* Adjust the margin as needed */
+        padding-right: 2%;
+        text-align: center;
+        
+    }
+    .footer-contact {
+        font-size: 10px;
+        justify-content: center;
+    }
+    
+
+    
+    
+
+    
+    
+
+}
